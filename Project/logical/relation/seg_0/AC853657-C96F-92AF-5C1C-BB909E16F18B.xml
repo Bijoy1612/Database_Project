@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DriverHallOfFame" directorySegmentName="seg_0" id="AC853657-C96F-92AF-5C1C-BB909E16F18B">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:15:14 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<sourcePk>3C962143-C7FA-03DA-9CAA-67091C7CEECF</sourcePk>
+<targetPk>3B4699BE-4AB9-0B66-8E64-20E86A4BAF09</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CA987D7-B44E-7B22-C61F-6E28470C157F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B139BAC0-3766-5650-F2DA-D556EDF54FD0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

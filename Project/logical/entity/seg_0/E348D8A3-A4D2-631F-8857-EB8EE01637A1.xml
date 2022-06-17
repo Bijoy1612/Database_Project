@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E348D8A3-A4D2-631F-8857-EB8EE01637A1" name="Biography">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:47:20 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Driver_Id" id="3D734E2F-2C32-D2BC-7EAA-581E8152B8D8">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:47:29 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1ACE83F4-54CB-559C-7358-052FE956CEB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography_FirstName" id="C52B789A-1546-0AFF-E29B-567B3308C3F2">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:47:49 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F2C346B-F45E-C115-7967-D5182F6F88F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography_LastName" id="DC972C40-1046-7E55-8B86-44BD7409B948">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:48:06 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F4B6B82-3BFC-374A-1C61-8B8BFA42FBFE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography_Nationality" id="B9A1AEE5-C8E2-3E85-4817-F14D6BD39CEA">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:48:49 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4E5708BC-0939-09D6-26A0-47A5A4F8B2FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography_DateOfBirth" id="35F4FC6C-6B86-6548-F42B-B0742DF8D220">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:49:12 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>55541E30-211B-09AE-147D-D6131432CFF9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography_PlaceOfBirth" id="77C4C7DE-D670-EE7E-63AF-81127F923697">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:49:36 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF1EF74D-5A53-BB5D-301A-06BF9CE7537E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography_Education" id="020620BD-88EC-5BFF-3D3A-F3851F77C9FE">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:50:01 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F535CBD0-225B-239E-4142-5B93B33D6B8B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biography" id="3EE59D69-83DD-EC53-CADC-B17F762FB846">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:50:25 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B15D330C-EDD0-4232-CE5A-C6A01F441981</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Achievements" id="F329FF58-44F8-4EBA-308A-805340227535">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:52:11 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C2F493E-AD20-E975-B0CA-5F3B6DE71D16</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver_ID1" id="30E45D9F-CA02-A03C-FFAC-482164227B2C">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:10:39 UTC</createdTime>
+<generatorID>897AE54A-F3BC-47B6-8CBB-952AFF046B91</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>4FD1CFB6-F92C-ED45-5CDD-F41DE45F3609</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1ACE83F4-54CB-559C-7358-052FE956CEB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID1" id="2DF0D2D8-F985-1B71-D41E-9C7CEA4CF638">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:10:39 UTC</createdTime>
+<generatorID>897AE54A-F3BC-47B6-8CBB-952AFF046B91</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>2EC672E0-2D43-5D84-7AB4-4B78B4E58960</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID" id="11C5D9B8-2233-51FB-D867-A1E9A4DDDAA5">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:22:14 UTC</createdTime>
+<generatorID>897AE54A-F3BC-47B6-8CBB-952AFF046B91</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>B1F04EC0-3696-720C-9D24-36A0DAA3FA97</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5696CC13-6BF3-1EAE-03BC-A0B7B46D9F3D" name="Biography PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:47:37 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D734E2F-2C32-D2BC-7EAA-581E8152B8D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

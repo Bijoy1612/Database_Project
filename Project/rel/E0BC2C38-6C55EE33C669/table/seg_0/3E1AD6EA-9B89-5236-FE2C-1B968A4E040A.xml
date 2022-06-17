@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E1AD6EA-9B89-5236-FE2C-1B968A4E040A" name="Calender">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>4AD7AD29-FCD5-02E2-5292-6AAD91A7BAF8</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Event_ID" id="B9E48C7F-2E7C-9E50-4884-B52F79F7EFD2">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>66D1AEF2-5375-6985-21E3-8DA3049BAE71</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="E944367F-5E00-085E-FAC5-331243F25408">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>E42E54B3-5132-674A-B7B7-40D5184F7477</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0B5A32DB-7F11-99AA-1E6F-C51CDFA48632</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Time" id="A5266E40-5726-A1C6-15E8-A25FD4EBAB69">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>E086463B-EFE4-D791-42B3-32BF5C366133</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<domain>5366D5EA-5C7F-D2A1-F0DE-8C5EEE893605</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Points" id="5DDB2590-0AD8-BD4F-D427-ED1891962478">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>BB93CD23-9331-B6A9-8133-83E684F408B1</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60136C94-68C6-750E-1D4E-12874DB2411D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D37948D1-39E2-88CE-72A7-74EBD3CD5B58" name="Calender_PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>55EBF15C-B8A2-5BA9-19FA-F604C8CD73A9</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E944367F-5E00-085E-FAC5-331243F25408"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EventCircuit" directorySegmentName="seg_0" id="156DEC69-93D1-C623-7B6C-227ACADCA2AB">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:29:21 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<sourcePk>7F641440-FC3C-631E-B543-A03B3BA8D90B</sourcePk>
+<targetPk>A013A672-CEC5-2B6C-DA28-32F56C16D4FA</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BE21D2D-8847-7C5A-48ED-2B120A345DE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE0B8F3D-8627-E0F7-55D3-F8E74A9D8E0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

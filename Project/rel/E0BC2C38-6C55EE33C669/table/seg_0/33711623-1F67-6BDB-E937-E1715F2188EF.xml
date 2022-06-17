@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33711623-1F67-6BDB-E937-E1715F2188EF" name="Circuits">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>CE0B8F3D-8627-E0F7-55D3-F8E74A9D8E0F</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Circuit_ID" id="62F0BA1C-6998-526B-4659-124DECBD6D70">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>A7E2BA48-D61F-55C3-8E9B-3F7E1661B6CC</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E0F19FF8-431A-8DF3-C17D-A0048DCE528D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Circuit_Name" id="75AC6F91-09B6-0809-91F7-847B7BC3EEE9">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>E5306EBF-E024-1B07-DBA9-20B7B2FD5F4C</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7A60B2E0-0DAE-682C-7344-8745367192C7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Circuit_map" id="45DA7791-6C88-06CF-7484-98F2EF13B10A">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>57617D4F-A1FF-A89B-7828-31F17381CD5F</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<domain>BFC43B38-1A24-3151-E3CA-CCF5C1FD79B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Circuit_Type" id="A4F7FCBD-E5EC-DECF-9417-84ACE1B62BF0">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>B50AE25C-8540-6F24-9EAD-5C75E05C4D2F</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA86CA18-EE94-5032-E635-9F7D21CFDFD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Circuit_Address" id="A747BCDA-DFEC-03C7-9C3A-E8624B4F04C6">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>C2A38DFA-9A92-DA8A-70AA-06E5E42514AD</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F969D2A2-92DA-D1E0-AF50-9C866B64E295</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Circuit_Length" id="E4B937D4-C2A2-1B73-FF57-451A8D4CB9A5">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>FCB637BD-BC9C-28E7-31AA-040AB1835924</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DEAE84DE-9B09-0B8E-89CA-369F2A19BF61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grand_Prix" id="8FB69F49-CD47-08B4-FAA1-84DCB09B2EC5">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>52F88960-1598-4116-CAD1-3E2510015986</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66D62C04-1FE6-4F47-E875-9757DF0CDDB1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GrandPrix_Held" id="D7FD02AF-83CD-039D-CDCA-D3A685580037">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>E2A560A6-AD7C-AC16-EBEF-A70F00533D00</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E406FD96-BA86-286F-99B3-4C3A07629964</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_Event_ID" id="BEED50DF-FBDB-50D5-55AB-1FBD179B95BC">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>6305DD37-4266-D69A-8A3B-4E8D2E2E255D</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="747ED94D-318D-E515-0A9B-CD8133B38400" referredColumn="8228E51A-B4A1-583B-9163-293B9F17EEC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8130B6B-A483-E813-4EF8-9A5615360D44" name="Circuits_PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>A013A672-CEC5-2B6C-DA28-32F56C16D4FA</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62F0BA1C-6998-526B-4659-124DECBD6D70"/>
+<colUsage columnID="BEED50DF-FBDB-50D5-55AB-1FBD179B95BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EF0A743-B6BA-93C8-5444-5C21A166BCF6" name="Circuits_Event_FK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>156DEC69-93D1-C623-7B6C-227ACADCA2AB</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEED50DF-FBDB-50D5-55AB-1FBD179B95BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

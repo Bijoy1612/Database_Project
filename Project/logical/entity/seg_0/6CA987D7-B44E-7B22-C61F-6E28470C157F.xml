@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CA987D7-B44E-7B22-C61F-6E28470C157F" name="Driver">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:32:13 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Driver_ID" id="4FD1CFB6-F92C-ED45-5CDD-F41DE45F3609">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:37:24 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1ACE83F4-54CB-559C-7358-052FE956CEB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="9B0932E0-367B-1CF5-46B3-71087CF8CECE">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:32:32 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F2C346B-F45E-C115-7967-D5182F6F88F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="7AC3846D-DE97-B4FF-EF84-604E178454C1">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:33:15 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F4B6B82-3BFC-374A-1C61-8B8BFA42FBFE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver_Image" id="37147F37-5DEC-9BB6-E9C4-3E6E585A8ECA">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:03:57 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<domain>F214B692-065E-C510-69B7-D5A8CDC15B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Natonality" id="F963C5C5-D4D7-DAA5-6B01-279E8B987E07">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:33:56 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4E5708BC-0939-09D6-26A0-47A5A4F8B2FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DateOfBirth" id="E89EF577-B9BB-94E0-E427-85F0A569C5CD">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:34:10 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>55541E30-211B-09AE-147D-D6131432CFF9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID" id="12FFC25C-FE80-5A21-5793-EA68D65AA9AC">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:08:30 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID1" id="2EC672E0-2D43-5D84-7AB4-4B78B4E58960">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:09:04 UTC</createdTime>
+<generatorID>869E24E7-9284-3360-8D7C-6EDB9E55E8B3</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>B2D3FDF1-009D-9447-481C-9417F03EA5D5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID" id="B1F04EC0-3696-720C-9D24-36A0DAA3FA97">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:22:14 UTC</createdTime>
+<generatorID>869E24E7-9284-3360-8D7C-6EDB9E55E8B3</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>CC275170-0DF9-5426-E4D3-0F6FF91395DB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C962143-C7FA-03DA-9CAA-67091C7CEECF" name="Driver PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:37:40 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FD1CFB6-F92C-ED45-5CDD-F41DE45F3609</attributeRef>
+<attributeRef>2EC672E0-2D43-5D84-7AB4-4B78B4E58960</attributeRef>
+<attributeRef>B1F04EC0-3696-720C-9D24-36A0DAA3FA97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

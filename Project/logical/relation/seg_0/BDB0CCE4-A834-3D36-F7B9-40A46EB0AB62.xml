@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TeamCar" directorySegmentName="seg_0" id="BDB0CCE4-A834-3D36-F7B9-40A46EB0AB62">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:14:29 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<sourcePk>044D5624-3BDE-5B41-0C4E-0E71DBE33824</sourcePk>
+<targetPk>245B550C-2B4A-8290-5A75-E03C5B8C1CBD</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49456595-765E-93AD-7F40-1CF8549135E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7ADA715-1DF4-F3EE-2D62-30DDB0808037</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

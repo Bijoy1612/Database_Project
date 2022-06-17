@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="702154B9-95F5-F66C-391A-E7A7862EF871" name="Team">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>49456595-765E-93AD-7F40-1CF8549135E1</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Team_ID" id="59FE047B-21C0-E104-D972-7134B785BE6D">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>B2D3FDF1-009D-9447-481C-9417F03EA5D5</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TeamName" id="06F8A00B-1633-CA6F-1B13-A18B5073C79F">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>3BF8FECF-F88C-CF3E-E7BF-6600D8D7C39F</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3141CF16-BF27-8AC1-2ADC-7D9BCF66F135</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_Image" id="BAB49335-DC3C-9CF6-F330-A8B745A2AA66">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>9CF3FE7A-E88C-7AD8-B487-9A96766CBB7F</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<domain>F214B692-065E-C510-69B7-D5A8CDC15B40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_chief" id="4361262A-EBB1-2F5A-E06F-267136F11375">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>81643D8E-5FAA-5F0E-D614-C63F029C2739</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D66E5BF2-0517-7AD3-1D4A-D12B173852C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country" id="F6DEAF02-6583-85E6-F6D2-C39A81019884">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>9FF5D815-3279-FDC2-E180-2FFFF7743A46</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4E5708BC-0939-09D6-26A0-47A5A4F8B2FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_sponsor" id="BD64BA64-2E1B-8376-9963-AA631078A3BB">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>9ADD3A59-0FE3-320E-2BFB-0A179339057C</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B347F2D6-7BFD-07B9-1487-49BBBDC1A5C8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Car" id="68053DE1-3B92-DE5F-A045-F4EBC0FC30CD">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>3D9D84D3-1CEC-8BA6-AFC2-7BD4BD79F2F4</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D899E884-65E3-62C4-F3AD-1317F626FC1F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_Event_ID" id="FF6E9B5A-7AD5-3C9D-D587-2EF490BD2E1F">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>CC275170-0DF9-5426-E4D3-0F6FF91395DB</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8159D0D-FD89-B29F-FA17-093563AFA5A8" referredColumn="8228E51A-B4A1-583B-9163-293B9F17EEC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52F240FB-177D-BB3A-E583-245A6A901484" name="Team_PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>044D5624-3BDE-5B41-0C4E-0E71DBE33824</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59FE047B-21C0-E104-D972-7134B785BE6D"/>
+<colUsage columnID="FF6E9B5A-7AD5-3C9D-D587-2EF490BD2E1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE5F14D2-4E11-D5FB-A8E2-A04F2ADFA262" name="Team_Event_FK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>68C44BFE-BA90-B5ED-8AE2-591E1CEAF5EF</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF6E9B5A-7AD5-3C9D-D587-2EF490BD2E1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

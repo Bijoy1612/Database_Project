@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D201982B-EFDB-2632-E037-01A040D1B655" containerWithKeyObject="FE06F96E-254B-2918-0C8F-CDFF099A4725" localFKIndex="A0F3F57B-C9DA-0C5F-86D7-791A3AD6977C" name="HallOfFame_Driver_FK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>AC853657-C96F-92AF-5C1C-BB909E16F18B</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<referredTableLongName>Driver</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>330D3953-EC98-41BF-E605-C078CB55A674</referredTableID>
+<keyObject>D3352159-ECC9-2CC1-8FCD-C7780489F2A9</keyObject>
+<referredKeyID>D3352159-ECC9-2CC1-8FCD-C7780489F2A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Driver_ID,Team_Team_ID,Team_Event_Event_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D520DD61-6F44-1436-733D-8D3F6F294633" containerWithKeyObject="BB16ACB5-4E65-9BFF-A19A-EC14F5558E2A" localFKIndex="F2DB80D9-55A7-054A-D3E8-2AF4CB519032" name="Standings_Team_FK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>CCDC775E-122B-1396-1078-9C272EF3BC31</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<referredTableLongName>Team</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>702154B9-95F5-F66C-391A-E7A7862EF871</referredTableID>
+<keyObject>52F240FB-177D-BB3A-E583-245A6A901484</keyObject>
+<referredKeyID>52F240FB-177D-BB3A-E583-245A6A901484</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Team_ID,Event_Event_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

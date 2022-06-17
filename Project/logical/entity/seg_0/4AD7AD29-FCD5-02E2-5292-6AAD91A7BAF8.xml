@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AD7AD29-FCD5-02E2-5292-6AAD91A7BAF8" name="Calender">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:38:47 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Event_ID" id="66D1AEF2-5375-6985-21E3-8DA3049BAE71">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:17:27 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="E42E54B3-5132-674A-B7B7-40D5184F7477">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:38:55 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0B5A32DB-7F11-99AA-1E6F-C51CDFA48632</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="E086463B-EFE4-D791-42B3-32BF5C366133">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:40:30 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<domain>5366D5EA-5C7F-D2A1-F0DE-8C5EEE893605</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Points" id="BB93CD23-9331-B6A9-8133-83E684F408B1">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:42:02 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60136C94-68C6-750E-1D4E-12874DB2411D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55EBF15C-B8A2-5BA9-19FA-F604C8CD73A9" name="Calender PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:18:59 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E42E54B3-5132-674A-B7B7-40D5184F7477</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

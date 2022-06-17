@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CalendarEvent" directorySegmentName="seg_0" id="C54C692D-F3D5-89AF-AD48-3632BEE7B433">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:25:18 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<targetPk>7F641440-FC3C-631E-B543-A03B3BA8D90B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4AD7AD29-FCD5-02E2-5292-6AAD91A7BAF8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BE21D2D-8847-7C5A-48ED-2B120A345DE4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

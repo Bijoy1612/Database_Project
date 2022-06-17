@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE0B8F3D-8627-E0F7-55D3-F8E74A9D8E0F" name="Circuits">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:52:10 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Circuit_ID" id="A7E2BA48-D61F-55C3-8E9B-3F7E1661B6CC">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:52:18 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E0F19FF8-431A-8DF3-C17D-A0048DCE528D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Circuit_Name" id="E5306EBF-E024-1B07-DBA9-20B7B2FD5F4C">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:52:44 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7A60B2E0-0DAE-682C-7344-8745367192C7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Circuit_map" id="57617D4F-A1FF-A89B-7828-31F17381CD5F">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:53:05 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<domain>BFC43B38-1A24-3151-E3CA-CCF5C1FD79B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Circuit_Type" id="B50AE25C-8540-6F24-9EAD-5C75E05C4D2F">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:53:17 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BA86CA18-EE94-5032-E635-9F7D21CFDFD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Circuit_Address" id="C2A38DFA-9A92-DA8A-70AA-06E5E42514AD">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:53:33 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F969D2A2-92DA-D1E0-AF50-9C866B64E295</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Circuit_Length" id="FCB637BD-BC9C-28E7-31AA-040AB1835924">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:54:02 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DEAE84DE-9B09-0B8E-89CA-369F2A19BF61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grand_Prix" id="52F88960-1598-4116-CAD1-3E2510015986">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:54:18 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>66D62C04-1FE6-4F47-E875-9757DF0CDDB1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GrandPrix_Held" id="E2A560A6-AD7C-AC16-EBEF-A70F00533D00">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:54:35 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E406FD96-BA86-286F-99B3-4C3A07629964</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID" id="6305DD37-4266-D69A-8A3B-4E8D2E2E255D">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:29:21 UTC</createdTime>
+<generatorID>156DEC69-93D1-C623-7B6C-227ACADCA2AB</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>2D57F00E-BD32-4CE7-00D4-69B8E1F5FB4A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A013A672-CEC5-2B6C-DA28-32F56C16D4FA" name="Circuits PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:52:38 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7E2BA48-D61F-55C3-8E9B-3F7E1661B6CC</attributeRef>
+<attributeRef>6305DD37-4266-D69A-8A3B-4E8D2E2E255D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

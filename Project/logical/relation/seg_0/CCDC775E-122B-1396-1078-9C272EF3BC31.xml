@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TeamStandings" directorySegmentName="seg_0" id="CCDC775E-122B-1396-1078-9C272EF3BC31">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:16:27 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<sourcePk>044D5624-3BDE-5B41-0C4E-0E71DBE33824</sourcePk>
+<targetPk>DC69984E-ADD9-2026-240F-ECC37A8044AC</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49456595-765E-93AD-7F40-1CF8549135E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8D15762-C5DE-5CF3-B9C2-38C71BD281C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

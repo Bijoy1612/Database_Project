@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E628C09C-BB4D-697B-0CF8-7FB9DA229854" containerWithKeyObject="774F60AC-E253-1687-0159-80F9F96DAC7C" localFKIndex="14710DBA-181B-2CB4-CBE7-9904E920E8B8" name="ESports_Team_FK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>3748EB76-3666-602A-FB8E-2DDD90DE178B</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<referredTableLongName>Team</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>702154B9-95F5-F66C-391A-E7A7862EF871</referredTableID>
+<keyObject>52F240FB-177D-BB3A-E583-245A6A901484</keyObject>
+<referredKeyID>52F240FB-177D-BB3A-E583-245A6A901484</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Team_ID,Event_Event_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

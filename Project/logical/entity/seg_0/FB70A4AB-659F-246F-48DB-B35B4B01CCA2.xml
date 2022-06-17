@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB70A4AB-659F-246F-48DB-B35B4B01CCA2" name="Records">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 15:53:52 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Driver_ID" id="4482BADE-ADFF-FA3F-896E-D925BDBF5AC5">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 16:04:40 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1ACE83F4-54CB-559C-7358-052FE956CEB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="23B10276-9AFB-54E6-FADA-F0ADA91143AA">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 16:04:31 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>0B5A32DB-7F11-99AA-1E6F-C51CDFA48632</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tournament" id="D626A884-D9DE-A6C8-98CA-0C9CFAFF53BD">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 16:04:55 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>818A83AD-89FC-8D10-571F-5EA53191042C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID" id="5F6A7072-A512-1644-D659-17002B5357AB">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 16:05:39 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lap_Time" id="4D2CED8F-6D1B-D866-6C70-F321CB9FE39C">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 16:06:13 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>101E8764-DAE8-6610-A0EB-7A8A390D816C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Points" id="C8D20154-2DC2-87F0-3305-5B73BDAEC7A8">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 16:08:54 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60136C94-68C6-750E-1D4E-12874DB2411D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver_ID1" id="42088B80-77BD-43AC-C9F5-E2CB9008F1D7">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:11:57 UTC</createdTime>
+<generatorID>7D236CAF-8C21-EE23-E665-643DF86493FB</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>4FD1CFB6-F92C-ED45-5CDD-F41DE45F3609</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1ACE83F4-54CB-559C-7358-052FE956CEB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID1" id="C2D4031C-E6E2-2EB4-A892-55460C65F235">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:11:57 UTC</createdTime>
+<generatorID>7D236CAF-8C21-EE23-E665-643DF86493FB</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>2EC672E0-2D43-5D84-7AB4-4B78B4E58960</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID2" id="572C7BCA-D723-0656-38C7-3382703806C8">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:12:26 UTC</createdTime>
+<generatorID>43D01407-F99A-A78C-CFE2-958B45BF8544</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>B2D3FDF1-009D-9447-481C-9417F03EA5D5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID" id="6D4FA861-E629-5044-5E56-969169329032">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:22:14 UTC</createdTime>
+<generatorID>43D01407-F99A-A78C-CFE2-958B45BF8544</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>CC275170-0DF9-5426-E4D3-0F6FF91395DB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID1" id="2F10A7D2-715A-9C3F-D882-B844F1C07E26">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:22:14 UTC</createdTime>
+<generatorID>7D236CAF-8C21-EE23-E665-643DF86493FB</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>B1F04EC0-3696-720C-9D24-36A0DAA3FA97</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="623504A0-726D-71FF-CD8D-AD49DD678CEA" name="Records PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-10 16:04:53 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4482BADE-ADFF-FA3F-896E-D925BDBF5AC5</attributeRef>
+<attributeRef>42088B80-77BD-43AC-C9F5-E2CB9008F1D7</attributeRef>
+<attributeRef>C2D4031C-E6E2-2EB4-A892-55460C65F235</attributeRef>
+<attributeRef>2F10A7D2-715A-9C3F-D882-B844F1C07E26</attributeRef>
+<attributeRef>572C7BCA-D723-0656-38C7-3382703806C8</attributeRef>
+<attributeRef>6D4FA861-E629-5044-5E56-969169329032</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

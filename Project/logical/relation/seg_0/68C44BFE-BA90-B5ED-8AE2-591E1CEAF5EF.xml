@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TeamEvents" directorySegmentName="seg_0" id="68C44BFE-BA90-B5ED-8AE2-591E1CEAF5EF">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:22:14 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<sourcePk>7F641440-FC3C-631E-B543-A03B3BA8D90B</sourcePk>
+<targetPk>044D5624-3BDE-5B41-0C4E-0E71DBE33824</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BE21D2D-8847-7C5A-48ED-2B120A345DE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>49456595-765E-93AD-7F40-1CF8549135E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

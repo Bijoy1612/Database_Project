@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A2095CF-878C-FFFB-D735-6982A37EAC49" name="CalendarEvent">
+<createdBy>BIJOY</createdBy>
+<createdTime>2020-09-12 12:16:13 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Calender_Date" id="46CDA6AC-1EFF-2D0A-FB59-D43525EDFB44">
+<createdBy>BIJOY</createdBy>
+<createdTime>2020-09-12 12:16:13 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59E0658C-CD22-976D-9AA6-AD5C27798A76" referredColumn="E944367F-5E00-085E-FAC5-331243F25408"/>
+</associations>
+</Column>
+<Column name="Event_Event_ID" id="9C6E0743-4488-48B0-B938-9672103B6AF4">
+<createdBy>BIJOY</createdBy>
+<createdTime>2020-09-12 12:16:13 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF40154D-9D0D-EBA1-6F11-08F25BE2DF9B" referredColumn="8228E51A-B4A1-583B-9163-293B9F17EEC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC880D04-9D30-0C6F-3E03-CFC061760D93" name="CalendarEvent_PK">
+<createdBy>BIJOY</createdBy>
+<createdTime>2020-09-12 12:16:13 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46CDA6AC-1EFF-2D0A-FB59-D43525EDFB44"/>
+<colUsage columnID="9C6E0743-4488-48B0-B938-9672103B6AF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31A5CE2A-D207-C025-D88A-518606F21530" name="CalendarEvent_Calender_FK">
+<createdBy>BIJOY</createdBy>
+<createdTime>2020-09-12 12:16:13 UTC</createdTime>
+<generatorID>C54C692D-F3D5-89AF-AD48-3632BEE7B433</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46CDA6AC-1EFF-2D0A-FB59-D43525EDFB44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B82BA209-2C7C-3AE2-3DA9-046A5096FC8A" name="CalendarEvent_Event_FK">
+<createdBy>BIJOY</createdBy>
+<createdTime>2020-09-12 12:16:13 UTC</createdTime>
+<generatorID>C54C692D-F3D5-89AF-AD48-3632BEE7B433</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C6E0743-4488-48B0-B938-9672103B6AF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

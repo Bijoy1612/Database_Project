@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="333A7ABE-2B6B-30C4-B2C3-F6E70D421188" name="ESports">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:47:10 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Year" id="ECAF2B54-3DF6-E4A5-B83D-0F4805E7C04D">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:47:19 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4BA92277-030C-91E7-4AEA-DD59638FDABB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Position" id="93BF193E-FF4C-1A2D-4ECC-70125E51B8B8">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:47:38 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>A2E7E153-C5D6-7D16-F99E-EF136CBCD2C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID" id="FCC29B3D-2F88-03EB-259F-218400198516">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:48:04 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver_ID" id="7CE06878-A23B-4983-4C90-C156B9D4B8D0">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:48:29 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1ACE83F4-54CB-559C-7358-052FE956CEB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Points" id="5ECE09B5-62DF-C7EE-8E5F-12A6831204C8">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:48:48 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60136C94-68C6-750E-1D4E-12874DB2411D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Team_ID1" id="6BDA6DA4-BE5D-412E-D6BD-92F73F5FF435">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:26:02 UTC</createdTime>
+<generatorID>3748EB76-3666-602A-FB8E-2DDD90DE178B</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>B2D3FDF1-009D-9447-481C-9417F03EA5D5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>7F21B162-BDAF-CEEB-9E01-3D684D2811E7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID" id="DEAD83B2-9411-AB49-9288-41452C15C61B">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:26:02 UTC</createdTime>
+<generatorID>3748EB76-3666-602A-FB8E-2DDD90DE178B</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<referedAttribute>CC275170-0DF9-5426-E4D3-0F6FF91395DB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>20C27D4B-2DC7-AD8A-F791-532EA05B163D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E8F1988-585A-F377-E686-1E6BE89DC19D" name="ESports PK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 15:47:29 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECAF2B54-3DF6-E4A5-B83D-0F4805E7C04D</attributeRef>
+<attributeRef>6BDA6DA4-BE5D-412E-D6BD-92F73F5FF435</attributeRef>
+<attributeRef>DEAD83B2-9411-AB49-9288-41452C15C61B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

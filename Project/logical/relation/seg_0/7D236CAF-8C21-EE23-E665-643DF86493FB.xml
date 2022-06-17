@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DriverRecords" directorySegmentName="seg_0" id="7D236CAF-8C21-EE23-E665-643DF86493FB">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:11:57 UTC</createdTime>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<engineerTo>
+<item key="E0BC2C38-1573-E159-9A3C-6C55EE33C669" value="true"/>
+</engineerTo>
+<sourcePk>3C962143-C7FA-03DA-9CAA-67091C7CEECF</sourcePk>
+<targetPk>623504A0-726D-71FF-CD8D-AD49DD678CEA</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CA987D7-B44E-7B22-C61F-6E28470C157F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB70A4AB-659F-246F-48DB-B35B4B01CCA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

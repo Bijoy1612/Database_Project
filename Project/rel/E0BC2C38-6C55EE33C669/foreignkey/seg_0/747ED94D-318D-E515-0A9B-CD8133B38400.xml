@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="747ED94D-318D-E515-0A9B-CD8133B38400" containerWithKeyObject="33711623-1F67-6BDB-E937-E1715F2188EF" localFKIndex="9EF0A743-B6BA-93C8-5444-5C21A166BCF6" name="Circuits_Event_FK">
+<createdBy>farha</createdBy>
+<createdTime>2020-09-11 16:35:08 UTC</createdTime>
+<generatorID>156DEC69-93D1-C623-7B6C-227ACADCA2AB</generatorID>
+<ownerDesignName>CSE302Project</ownerDesignName>
+<referredTableLongName>Event</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6EAFE23-8552-9A5F-F4FE-05A513861142</referredTableID>
+<keyObject>F0289075-2F88-5E0F-8054-01AD305ABDEE</keyObject>
+<referredKeyID>F0289075-2F88-5E0F-8054-01AD305ABDEE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Event_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
